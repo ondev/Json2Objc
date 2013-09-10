@@ -1,0 +1,17 @@
+{ 
+    "menuItems" : [{
+            "id" : "1",
+            "name" : "Teriyaki",
+            "spicy_level" : "2",
+            "review-count" : "4",
+            "reviews" : [{
+                    "id" : "2",
+                    "text" : "This is awesome!",
+                    "rating" : "5"
+                }]
+            }],
+    "status" : {
+        "code" : "0",
+        "localdesc" : "Everything is alright."
+      },
+}

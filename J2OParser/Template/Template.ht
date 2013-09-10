@@ -1,0 +1,9 @@
+@interface %«className» : JSONModel
+%FOREACH attribute in attributes
+%IFEQ attribute.isPointer "YES"
+@property (nonatomic, strong) %«attribute.variableTypeClassName» *%«attribute.variableName»;
+%ELSE
+@property (nonatomic) %«attribute.variableTypeClassName» «attribute.variableName»;
+%ENDIF
+%ENDFOR
+@end
